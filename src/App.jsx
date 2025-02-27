@@ -5,7 +5,8 @@ import Features from './sections/Features'
 import Pricing from './sections/Pricing'
 import Testimonials from './sections/Testomonials'
 import Download from './sections/Download'
-import Faq from './sections/faq'
+import Questions from './sections/Questions'
+
 
 const App = () => {
   return (
@@ -14,7 +15,7 @@ const App = () => {
       <Hero />
       <Features />
       <Pricing />
-      <Faq />
+      <Questions />
       <Testimonials />
       <Download />
     </main>

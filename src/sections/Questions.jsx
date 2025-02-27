@@ -2,7 +2,7 @@ import { Element } from "react-scroll";
 import { faq } from "../constants/index.jsx";
 import FaqItem from "../components/FaqItem.jsx";
 
-const Faq = () => {
+const Questions = () => {
   const halfLength = Math.floor(faq.length / 2);
 
   return (
@@ -47,4 +47,4 @@ const Faq = () => {
   );
 };
 
-export default Faq;
+export default Questions;
