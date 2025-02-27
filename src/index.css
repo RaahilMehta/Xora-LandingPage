@@ -42,7 +42,9 @@
 html {
   scroll-behavior: smooth;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 @layer utilities {
   /* START of Typography */
   .h-num {
